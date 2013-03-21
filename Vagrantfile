@@ -74,7 +74,7 @@ SCRIPT
     # apply a run_list
     config.vm.provision :chef_solo do |chef|
       chef.run_list = [
-        "recipe[hello-world::default]"]
+        "recipe[vagrant-joyent-hello_world::default]"]
     end
     
   end
