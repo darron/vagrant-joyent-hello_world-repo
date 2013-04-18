@@ -59,8 +59,8 @@ SCRIPT
       joyent.joyent_password = ENV['JOYENT_PASSWORD']
       joyent.joyent_api_url  = ENV['JOYENT_API_URL']
       
-      # base64 1.9.0
-      joyent.dataset = "bad2face-8738-11e2-ac72-0378d02f84de"
+      # base64 1.9.1
+      joyent.dataset = "cf7e2f40-9276-11e2-af9a-0bad2233fb0b"
       
       joyent.flavor = "Small 1GB"
       joyent.node_name = "vagrant-test"
